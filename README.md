@@ -1,6 +1,6 @@
 ## Start jekyll from docker
 ```markdown
-docker run --rm -v /Users/petr/projects/jekyll/:/srv/jekyll -p 4000:4000 -it jekyll/jekyll:builder bash
+docker run --rm -v $PWD:/srv/jekyll -p 4000:4000 -it jekyll/jekyll:builder bash
 
 jekyll serve
 ```

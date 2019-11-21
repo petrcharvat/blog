@@ -1,10 +1,10 @@
-theme: jekyll-theme-hacker
+theme: jekyll-whiteglass
 
 plugins:
   - jekyll-archives
   - jekyll-paginate
   - jekyll-sitemap
-  
+
 permalink: /:year/:month/:day/:title/
 paginate_path: /posts/:num/
 paginate: 5
@@ -16,4 +16,4 @@ jekyll-archives:
   layout: category_archives
   permalinks:
     category: /categories/:name/
-    tag: /tags/:name/  
+    tag: /tags/:name/
